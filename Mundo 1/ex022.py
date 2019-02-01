@@ -1,0 +1,7 @@
+texto = str(input('Digite seu nome completo: ')).strip()
+print('\nTudo em Minúsculas: \n{}'.format(texto.lower()))
+print('Tudo em Maiúsculas: \n{}'.format(texto.upper()))
+separado = texto.split()
+junto = ''.join(separado)
+print('Número de letras (sem espaços): {}'.format(len(junto)))
+print('O primeiro nome ({}) tem {} letras'.format(separado[0], len(separado[0])))
