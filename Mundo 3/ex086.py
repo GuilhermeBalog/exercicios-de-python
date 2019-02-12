@@ -8,5 +8,5 @@ for c in range(0, 3):
 
 for c in matriz:
     for i in c:
-        print(f'[ {i} ]', end='')
+        print(f'[ {i:^3} ]', end='')
     print()

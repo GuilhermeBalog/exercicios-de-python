@@ -1,6 +1,6 @@
 boletim = []
 aluno = []
-notas= []
+notas = []
 while True:
     aluno.append(str(input('Nome do Aluno: ')).strip())
     notas.append(float(input('Nota 1: ')))
@@ -20,10 +20,10 @@ while True:
     elif opcao == 'S':
         continue
 print('\nBOLETIM: ')
-print(f'CÓD. {"NOME":<20} MÉDIA')
+print(f'CÓD. {"NOME":<10} MÉDIA')
 for cod, aluno in enumerate(boletim):
     media = (aluno[1][0] + aluno[1][1]) / 2
-    print(f'{cod:<4} {aluno[0]:<20} {media:.2f}')
+    print(f'{cod:<4} {aluno[0]:<10} {media:.2f}')
 while True:
     cod = int(input('\nDigite o código do aluno para exibir suas notas (999 interrompe) '))
     if cod == 999:
