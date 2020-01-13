@@ -1,6 +1,6 @@
 times = ('Palmeiras', 'Flamengo', 'Internacional', 'Grêmio', 'São Paulo', 'Atlético - MG', 'Athletico - PR',
-         'Cruzeiro', 'Botafogo', 'Santos', 'Bahia', 'Fluminense', 'Corinthians', 'Chapecoense', 'Ceará', 'Vasco',
-         'Sport', 'América - MG', 'Vitória', 'Paraná')
+        'Cruzeiro', 'Botafogo', 'Santos', 'Bahia', 'Fluminense', 'Corinthians', 'Chapecoense', 'Ceará', 'Vasco',
+        'Sport', 'América - MG', 'Vitória', 'Paraná')
 verm = '\033[31m'
 verde = '\033[1;32m'
 amar = '\033[33m'
