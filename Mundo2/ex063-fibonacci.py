@@ -5,7 +5,7 @@ n2 = 1
 if n == 0:
     print('Nenhum número para exibir!')
 elif n == 1:
-    print('O primeiro número da sequência é )')
+    print('O primeiro número da sequência é 0')
 elif n >= 2:
     print('Os {} primeiros números da sequência são: '.format(n))
     print('0, 1, ', end='')
